@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đăng ký</title>
+    <link rel="stylesheet" href="../styles/s-sign-up.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h1 class="header">TẠO TÀI KHOẢN THÀNH VIÊN MỚI</h1>
+      </div>
+      <div class="input-data-warp">
+        <div class="input-data">
+          <div class="name">
+            <label for="#">Họ & Tên</label>
+            <input
+              type="text"
+              class="text-input"
+              id="name"
+              placeholder=""
+              required
+            />
+          </div>
+          <div class="email">
+            <label for="#">Email</label>
+            <input
+              type="email"
+              class="text-input"
+              id="email"
+              placeholder=""
+              required
+            />
+          </div>
+          <div class="pass">
+            <label for="#">Mật khẩu</label>
+            <input
+              type="password"
+              class="text-input"
+              id="pass"
+              placeholder=""
+              required
+            />
+          </div>
+          <div class="pass">
+            <label for="#">Xác nhận lại mật khẩu</label>
+            <input
+              type="password"
+              class="text-input"
+              id="re-pass"
+              placeholder="Nhập mật lại khẩu của bạn..."
+              required
+            />
+          </div>
+          <div class="birthday">
+            <label for="#">Ngày sinh</label>
+            <input type="date" class="text-input" id="birthday" required />
+          </div>
+          <div class="phone">
+            <label for="#">Số điện thoại</label>
+            <input type="text" class="text-input" id="phone" required />
+          </div>
+          <div class="confirm">
+            <input type="checkbox" name="confirm" id="confirm" />
+            <label for="#"
+              >Tôi đồng ý với các
+              <span style="color: red">điều khoản và điều kiện</span></label
+            >
+          </div>
+
+          <div class="button-warp">
+            <a href="https://www.facebook.com/">
+              <button id="button">ĐĂNG KÝ</button>
+            </a>
+          </div>
+          <!-- <input type="button" id="button" value="ĐĂNG NHẬP" /> -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

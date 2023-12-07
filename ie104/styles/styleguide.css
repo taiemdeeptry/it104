@@ -1,0 +1,15 @@
+:root {
+  --background-color: rgba(253, 239, 227, 1);
+  --button: rgba(255, 27, 8, 1);
+  --background-card: rgba(229, 173, 155, 1);
+  --title: rgba(47, 39, 54, 1);
+  --sub-title: rgba(100, 130, 157, 1);
+  --white-color: rgba(255, 255, 255, 1);
+  --primary-color: rgba(255, 250, 245, 1);
+  --primary-font-font-family: "Roboto-Regular", Helvetica;
+  --primary-font-font-weight: 400;
+  --primary-font-font-size: 16px;
+  --primary-font-letter-spacing: 0px;
+  --primary-font-line-height: normal;
+  --primary-font-font-style: normal;
+}
