@@ -3,46 +3,30 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Danh sách sản phẩm trong kho</title>
-        <link rel="stylesheet" href="../styles/ds-sp-trong-kho.css" />
+        <title>Danh sách thêm sản phẩm</title>
+        <link rel="stylesheet" href="../styles/ds-them-sp.css" />
+
         <script src="../script/ds-sp-trong-kho.js"></script>
     </head>
     <body>
-        <div class="header-warp">
-            <p class="header">Danh sách sản phẩm trong kho</p>
+        <div class="header">
+            <p>Danh sách thêm sản phẩm</p>
         </div>
-        <div class="container-box">
-            <div class="box-1-warp">
-                <div class="left-box-1">
-                    <div class="t1-warp">
-                        <div class="t1">
-                            <p>0 / 1000 Sản Phẩm</p>
-                        </div>
-                    </div>
-                    <fieldset class="search-warp">
-                        <legend class="search-box">Tìm sản phẩm</legend>
-                        <input
-                            class="search-text-box"
-                            type="text"
-                            name=""
-                            id=""
-                        />
-                    </fieldset>
-                </div>
-                <div class="right-box-1">
-                    <button class="add-items">NHẬP HÀNG</button>
-                </div>
+        <div class="container">
+            <div class="box-1">
+                <p>2 Sản Phẩm</p>
+                <button>+Thêm 1 sản phẩm mới</button>
             </div>
-            <div class="box-2-warp">
+            <div class="box-2">
                 <div class="product-box">
                     <table>
                         <thead>
                             <tr>
-                                <th>STT</th>
                                 <th>SẢN PHẨM</th>
                                 <th>GIÁ</th>
-                                <th>KHO HÀNG</th>
+                                <th>SỐ LƯỢNG</th>
                                 <th>NGÀNH HÀNG</th>
+                                <th>MÔ TẢ</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -66,9 +50,11 @@
                     <button onclick="addProduct()">Thêm sản phẩm</button>
                 </div> -->
             </div>
-            <div class="button-warp">
-                <a href=""><button class="button-1" id="">< TRỞ LẠI</button></a>
+            <div class="btn">
+                <a href=""><button id="back">TRỞ LẠI</button></a>
+                <button id="save">LƯU & NHẬP HÀNG</button>
             </div>
         </div>
+        <div class="footer"><p>Footer</p></div>
     </body>
 </html>

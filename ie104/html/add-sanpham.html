@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Thêm sản phẩm</title>
+        <link rel="stylesheet" href="../styles/add-sanpham.css" />
+    </head>
+    <body>
+        <div class="header">
+            <p>Thêm sản phẩm</p>
+        </div>
+        <div class="container">
+            <div class="input-data-warp">
+                <div class="title1">
+                    <img class="img1" src="" alt="" />
+                    <span class="h1">Thông tin cơ bản</span>
+                </div>
+                <div class="line1"></div>
+                <div class="input-data">
+                    <div class="title-input-data">
+                        <p>Tên sản phẩm</p>
+                        <p>Mô tả sản phẩm</p>
+                        <p>Danh mục</p>
+                        <p>Nhà sản xuất / Thương hiệu</p>
+                    </div>
+                    <div class="text-input-data">
+                        <input
+                            type="text"
+                            class="t2"
+                            name="name"
+                            id="name"
+                            placeholder="Giày Adidas"
+                            required
+                        />
+                        <input
+                            type="text"
+                            class="t2"
+                            name="description"
+                            id="description"
+                            placeholder="Giày sneaker ..."
+                            required
+                        />
+                        <div class="t1">
+                            <select name="type" id="type">
+                                <option value="1">Áo quần</option>
+                                <option value="2">Giày dép</option>
+                                <option value="3">Trang sức</option>
+                            </select>
+                            <fieldset>
+                                <legend>Giá bán</legend>
+                                <input
+                                    type="number"
+                                    name="price"
+                                    id="price"
+                                    placeholder="0 VND"
+                                    required
+                                />
+                            </fieldset>
+                        </div>
+                        <div class="t1">
+                            <input
+                                type="text"
+                                class="t2"
+                                name="nsx"
+                                id="nsx"
+                                placeholder="Adidas"
+                                required
+                            />
+                            <fieldset>
+                                <legend>Số lượng</legend>
+
+                                <input
+                                    type="number"
+                                    name="count"
+                                    id="count"
+                                    placeholder="1"
+                                    required
+                                />
+                            </fieldset>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn">
+                    <a href=""><button id="cancel">HỦY</button></a>
+                    <a href=""><button id="save">LƯU & HIỂN THỊ</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer"><p>Footer</p></div>
+    </body>
+</html>
