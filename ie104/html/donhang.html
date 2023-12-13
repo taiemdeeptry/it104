@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Trang chủ</title>
+        <link rel="stylesheet" href="../styles/donhang.css" />
+
+        <script src="../script/ds-sp-trong-kho.js"></script>
+    </head>
+    <body>
+        <div class="header-warp">
+            <p>Header</p>
+        </div>
+        <div class="container-box">
+            <div class="box-1">
+                <div class="title">
+                    <p>thông tin giao hàng - mã đơn hàng</p>
+                </div>
+                <div class="line"></div>
+                <div class="infor">
+                    <p>Tên khách | Số điện thoại | Địa chỉ</p>
+                    <button>Chỉnh sửa</button>
+                </div>
+            </div>
+            <div class="box-2">
+                <div class="product-box">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>sản phẩm</th>
+                                <th>shop</th>
+                                <th>giá</th>
+                                <th>số lượng</th>
+                                <th>tổng tiền</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Dữ liệu sản phẩm sẽ được thêm vào đây -->
+                        </tbody>
+                    </table>
+                </div>
+                <div class="total">
+                    <p>
+                        Tổng tiền hàng <span>(x Sản phẩm)</span>: 00.000.000 VND
+                    </p>
+                </div>
+                <div class="discount">
+                    <p class="line"></p>
+                    <div>
+                        <p>Thêm mã giảm giá của Shop</p>
+                        <input type="text" name="" id="discount" />
+                    </div>
+                </div>
+                <!-- test -->
+                <!-- <div class="add-product-form">
+                    <label for="productName">Tên sản phẩm:</label>
+                    <input type="text" id="productName" required />
+
+                    <label for="productPrice">Giá tiền:</label>
+                    <input type="number" id="productPrice" required />
+
+                    <label for="productQuantity">Số lượng:</label>
+                    <input type="number" id="productQuantity" required />
+
+                    <label for="productType">Loại sản phẩm:</label>
+                    <input type="text" id="productType" required />
+
+                    <button onclick="addProduct()">Thêm sản phẩm</button>
+                </div> -->
+            </div>
+            <div class="box-3">
+                <div class="title-warp">
+                    <div class="title">
+                        <p>Đơn vị vận chuyển</p>
+                        <div class="btn">
+                            <button>Đơn vị 1</button>
+                            <button>Đơn vị 2</button>
+                            <button>Đơn vị 3</button>
+                            <button>Đơn vị 4</button>
+                        </div>
+                    </div>
+                    <p class="line"></p>
+                </div>
+                <div class="discount">
+                    <p>Thêm mã giảm phí vận chuyển</p>
+                    <input type="text" name="" id="discount" />
+                </div>
+            </div>
+            <div class="box-4">
+                <div class="title-warp">
+                    <div class="title">
+                        <p>Phương thức thanh toán</p>
+                        <div class="btn">
+                            <button>Ví Momo</button>
+                            <button>Chuyển khoản ngân hàng</button>
+                            <button>Thanh toán khi nhận hàng</button>
+                        </div>
+                    </div>
+                    <p class="line"></p>
+                </div>
+                <div class="total-bill">
+                    <div class="tt1">
+                        <div class="left">
+                            <p>Tổng tiền hàng:</p>
+                            <p>Voucher giảm giá:</p>
+                            <p>Phí vận chuyển:</p>
+                        </div>
+                        <div class="right">
+                            <p>0 VND</p>
+                            <p>0 VND</p>
+                            <p>0 VND</p>
+                        </div>
+                    </div>
+                    <p class="line"></p>
+                    <div class="tt2">
+                        <div class="l-r">
+                            <p class="left">Tổng thanh toán:</p>
+                            <p class="right">0 VND</p>
+                        </div>
+                        <div class="btn">
+                            <button id="back">Trở lại</button>
+                            <button id="order">Đặt hàng</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Footer</p>
+        </div>
+    </body>
+</html>
